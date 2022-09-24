@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '65e11133-ccb6-472e-b0d6-11ed2e5c0557'
   imageRepository: 'richardpythonsamplevscodeflasktutorial'
-  containerRegistry: 'testcontainterregistry01.azurecr.io'
+  containerRegistry: 'aci-demoTest.southcentralus.azurecontainer.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
